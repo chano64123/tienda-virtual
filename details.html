@@ -43,11 +43,13 @@
         <main>
             <div class="container">
                 <div class="columns-container">
-                    <div class="product-images-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit delectus earum eum laboriosam quas, maxime voluptates expedita. Nulla, cumque. Impedit necessitatibus delectus numquam atque incidunt sunt dolores! Hic, aperiam. Laboriosam.</div>
+                    <div class="product-images-block">
+                        <div class="thumbnail-container"><img src="assets/mock1.jpg" alt="miniatura 1" /></div>
+                        <div class="thumbnail-container"><img src="assets/mock2.jpg" alt="miniatura 2" /></div>
+                        <img class="main-image" src="assets/mock1.jpg" alt="" />
+                    </div>
                     <div class="product-description-block">
-                        <h1 class="title">
-                            Macbook Pro 15'4
-                        </h1>
+                        <h1 class="title">Macbook Pro 15'4</h1>
                         <form class="selector">
                             <fieldset>
                                 <label class="label" for="color">Color</label>
@@ -58,16 +60,87 @@
                                 </select>
                             </fieldset>
                         </form>
-                        <p class="description">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore repellat officiis, accusamus necessitatibus blanditiis similique possimus nihil ipsum.
-                        </p>
+                        <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore repellat officiis, accusamus necessitatibus blanditiis similique possimus nihil ipsum.</p>
                         <p class="description">
                             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore repellat officiis, accusamus necessitatibus blanditiis similique possimus nihil ipsum minus neque obcaecati id quos, itaque distinctio cumque voluptatem doloribus sunt debitis?
                         </p>
                     </div>
-                    <div class="product-checkout-block">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit delectus earum eum laboriosam quas, maxime voluptates expedita. Nulla, cumque. Impedit necessitatibus delectus numquam atque incidunt sunt dolores! Hic, aperiam. Laboriosam.</div>
+                    <div class="product-checkout-block">
+                        <div class="checkout-container">
+                            <span class="checkout-total-label">Total:</span>
+                            <h2 class="checkout-total-price">S/1500.00</h2>
+                            <p class="checkout-description">Incluye impuestos, pero si quieres los evadimos por ti.</p>
+                            <ul class="checkout-policy-list">
+                                <li>
+                                    <span class="policy-icon"><img src="assets/truck.png" alt="" /></span>
+                                    <span class="policy-desc">Agregar el producto al carrito para conocer los precios de envío.</span>
+                                </li>
+                                <li>
+                                    <span class="policy-icon"><img src="assets/plane.png" alt="" /></span>
+                                    <span class="policy-desc">Lo recibes al instante, ni cuenta te vas a dar.</span>
+                                </li>
+                            </ul>
+                            <div class="checkout-process">
+                                <div class="top">
+                                    <input type="number" value="1" min="1" max="10">
+                                    <button class="btn-primary">Comprar</button>
+                                </div>
+                                <div class="bottom">
+                                    <button class="btn-outline">Agregar al carrito</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="sales-block">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae suscipit, ullam explicabo porro neque ipsam totam est reiciendis optio quia commodi tenetur consequatur voluptates debitis voluptatem voluptatum distinctio autem atque.</div>
+                <div class="sales-block">
+                    <h3 class="recommended-product-label">Productos que regalamos</h3>
+                    <div class="container">
+                        <div class="product-container">
+                            <article class="product-card">
+                                <a class="product-link" href="details.html">
+                                    <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
+                                    <div class="product-info">
+                                        <span class="product-title">Macbook Pro 15'4</span>
+                                        <span class="product-description">Space Gray</span>
+                                        <div class="product-price-block">
+                                            <span class="price">$750.000</span>
+                                            <span class="discount">50% Off</span>
+                                        </div>
+                                        <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="product-card">
+                                <a class="product-link" href="details.html">
+                                    <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
+                                    <div class="product-info">
+                                        <span class="product-title">Macbook Pro 15'4</span>
+                                        <span class="product-description">Space Gray</span>
+                                        <div class="product-price-block">
+                                            <span class="price">$750.000</span>
+                                            <span class="discount">50% Off</span>
+                                        </div>
+                                        <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="product-card">
+                                <a class="product-link" href="details.html">
+                                    <img class="product-img" src="assets/mock1.jpg" alt="Macbook Pro" />
+                                    <div class="product-info">
+                                        <span class="product-title">Macbook Pro 15'4</span>
+                                        <span class="product-description">Space Gray</span>
+                                        <div class="product-price-block">
+                                            <span class="price">$750.000</span>
+                                            <span class="discount">50% Off</span>
+                                        </div>
+                                        <div class="product-tax-policy">Incluye impuesto País y percepción AFIP</div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </div>
             </div>
         </main>
         <footer>
