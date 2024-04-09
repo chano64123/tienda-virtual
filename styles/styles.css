@@ -44,12 +44,13 @@ header {
 
 .search {
     padding: 10px;
-    flex: 1;
+    /* flex: 1;
     display: flex;
     justify-content: space-between;
+    align-items: center; */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
     align-items: center;
-    /* display: grid;
-    grid-template-columns: repeat(3, 1fr); */
 }
 
 .search .form {
@@ -67,6 +68,7 @@ header {
     box-sizing: border-box;
     text-align: center;
     font-size: 18px;
+    outline: none;
 }
 
 .search .social ul {
@@ -254,8 +256,7 @@ footer .container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 1.5rem;
-    justify-content: center;
+    gap: 2rem;
     padding: 0 5px;
 }
 
